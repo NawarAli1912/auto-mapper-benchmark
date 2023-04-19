@@ -12,6 +12,7 @@ Console.WriteLine("Hello, World");
 var result = BenchmarkRunner.Run<Benchmark>();
 
 
+[MemoryDiagnoser]
 public class Benchmark
 {
     private IMapper _mapper;
